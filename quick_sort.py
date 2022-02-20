@@ -2,6 +2,11 @@ def do_quick_sort(numbers):
 	quick_sort(0, len(numbers)-1, numbers)
 	return numbers
 
+
+# partition
+# find number smaller than pivot from left
+# find number greater than pivot from right
+# if start and end have not crossed each other, swap the numbers on start and end
 def partition(start, end, numbers):
 	pivot_idx = start
 	pivot = numbers[pivot_idx]
