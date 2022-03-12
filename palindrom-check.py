@@ -1,3 +1,6 @@
+# time complexity O(n)
+# space complexity O(1)
+
 def is_palindrome(input):
 	if input < 0:
 		return False
@@ -22,6 +25,7 @@ def is_palindrome(input):
 		divisor = divisor / 100
 
 	return True
+
 
 print("-121 -> ",is_palindrome(-121))
 print("0 -> ",is_palindrome(0))

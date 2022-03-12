@@ -1,3 +1,5 @@
+# time complexity O(n)
+# space complexity O(n)
 def is_bracket_balanced(input):
 	stack = []
 	brackets = {"(":")","[":"]","{":"}"}
