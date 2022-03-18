@@ -1,3 +1,6 @@
+# time complexity O(log(n))
+# space complexity O(1)
+
 # string operation func is forbidden
 # O(n)
 def reverse_int(input):
