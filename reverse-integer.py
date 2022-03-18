@@ -1,4 +1,5 @@
 # string operation func is forbidden
+# O(n)
 def reverse_int(input):
 	output = 0
 

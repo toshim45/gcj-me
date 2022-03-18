@@ -1,3 +1,4 @@
+# O(n)
 def is_bracket_balanced(input):
 	stack = []
 	brackets = {"(":")","[":"]","{":"}"}

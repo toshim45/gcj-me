@@ -1,3 +1,4 @@
+# O(n)
 def is_palindrome(input):
 	if input < 0:
 		return False

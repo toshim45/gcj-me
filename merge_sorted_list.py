@@ -1,4 +1,5 @@
 # merge two sorted list of integer
+# time complexity -> O(A+B)
 	
 # with additional space:result
 def merge_sorted_list(numbers_a, numbers_b):
